@@ -9,7 +9,7 @@ function App() {
         if (state > 0) {
           return state - 1;
         } else {
-          state === 0;
+          state = 0;
         }
       default:
         return state;
